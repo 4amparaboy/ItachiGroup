@@ -69,7 +69,7 @@ RUN git clone -b master https://github.com/4amparaboy/ItachiGroup /root/ItachiRo
 WORKDIR /root/ItachiRobot
 
 #Copy config file to /root/ItachiRobot/ItachiRobot
-COPY ./ItachiRobot/sample_config.py ./ItachiRobot/config.py* /root/ItachiRobot/ItachiRobot/
+COPY ./ItachiRobot/config.py ./ItachiRobot/config.py* /root/ItachiRobot/ItachiRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
