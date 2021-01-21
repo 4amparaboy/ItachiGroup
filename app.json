@@ -10,7 +10,6 @@
          "Itachi"
       ],   
    "repository": "https://github.com/Tusharpalx/ItachiRobot",
-   "stack": "container",
    "addons": [
       {
          "options": {
