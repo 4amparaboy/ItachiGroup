@@ -9,6 +9,7 @@
          "Saitama"
       ],   
    "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+   "stack": "container",
    "addons": [
       {
          "options": {
