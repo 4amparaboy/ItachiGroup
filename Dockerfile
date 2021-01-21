@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/ItachiRobot
-RUN git clone -b shiken https://github.com/tusharpalx/ItachiRobot /root/ItachiRobot
+RUN git clone -b master https://github.com/4amparaboy/ItachiGroup /root/ItachiRobot
 WORKDIR /root/ItachiRobot
 
 #Copy config file to /root/ItachiRobot/ItachiRobot
